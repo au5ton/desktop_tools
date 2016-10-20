@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Determine OS version
+osvers=$(sw_vers -productVersion | awk -F. '{print $2}')
+
+if [[ ${osvers} -ge 7 ]]; then
+	# Notes:
+	# The reason we sleep 20 on the unbind is to allow enough time to propagate to the other DC's.
+	echo "***** Binding to ad.hisd.org ..... *****"
+	echo ""
+	computerid=`/usr/sbin/scutil --get LocalHostName`
+
+	domain="ad.hisd.org"
+	udn="csradda"
+	password="*ik,.lo("
+	alldomains="enable"
+	localhome="enable"
+	admingroups="AD\Domain Admins,AD\LAN Admins,AD\ServiceDesk_All"
+	# protocol="smb"
+	mobile="enable"
+	mobileconfirm="disable"
+	namespace="domain"
+	useuncpath="disable"
+	passinterval="90"
+
+	echo "Force binding machine (in case record already exists)..."
+	# Force bind machine in record to allow real unbind of machine
+	echo "Please enter the password for hisdadmin..."
+	sudo /usr/sbin/dsconfigad -force -add $domain -computer $computerid -username $udn -password "$password"
+
+	sleep 10
+
+	echo "Unbinding machine..."
+	# Unbind machine
+	sudo /usr/sbin/dsconfigad -remove -username $udn -password "$password"
+
+	sleep 20
+
+	echo "Binding machine correctly..."
+	# Bind to AD sanely
+	sudo /usr/sbin/dsconfigad -add $domain -computer $computerid -username $udn -password "$password"
+
+	echo "Configuring advanced AD options"
+	# Configure advanced AD plugin options
+	sudo /usr/sbin/dsconfigad -alldomains $alldomains -localhome $localhome -groups "$admingroups" -mobile $mobile -mobileconfirm $mobileconfirm -namespace $namespace -useuncpath $useuncpath -passinterval $passinterval
+
+	sleep 5
+
+	echo "***** Binding to ad.hisd.org - Done! *****"
+	echo ""
+fi
+exit 0
