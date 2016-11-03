@@ -1,0 +1,7 @@
+Type = Internal
+Serial = n/a
+Vendor = 610
+Model = Color LCD
+Manufactured = 2015-01
+Native = 2880 x 1800
+----------

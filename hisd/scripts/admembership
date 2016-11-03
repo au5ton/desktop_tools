@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# Created by Alby Rose - HISD on 8/14/2012
+# Verification by Erik Gomez - HISD on 08/12/2015
+# ***** For use with OS X 10.5.x - OS X 10.10.x*****
+#
+# This launchd forces members of "AD\Domain Users" to be added to local admin group
+# and retain admin rights, as long as they are not members of "AD\Global NOACCESS"
+# or STUDENT\Domain Users.
+
+# Check to see if AD user is a member of "AD\Global NOACCESS" and if the AD user is not a member, grant local admin rights
+
+username=`whoami`
+# Check to see if user is on the domain
+if [[ "`/usr/bin/dsmemberutil checkmembership -U "$1" -G "Student\Domain Users"`" == "user is a member of the group" ]] || [[ "`/usr/bin/dsmemberutil checkmembership -U "$1" -G "AD\Domain Users"`" == "user is a member of the group" ]] || [[ "`/usr/bin/dsmemberutil checkmembership -U "$1" -G "EXTERNAL\Domain Users"`" == "user is a member of the group" ]]
+    then
+        echo "User is a member of the domain in some capacity"
+            # If User is on AD Domain and not in Global NO ACCESS, give them admin rights
+            if [[ "`/usr/bin/dsmemberutil checkmembership -U "$1" -G "AD\Domain Users"`" == "user is a member of the group" ]] && [[ "`/usr/bin/dsmemberutil checkmembership -U "$1" -G "AD\Global NOACCESS"`" == "user is not a member of the group" ]]
+                then
+                    echo "User is in AD and not Global No Access"
+                    /usr/sbin/dseditgroup -o edit -a "$1" -t user admin
+                else
+                    echo "User should not be an admin or another case"
+                    /usr/sbin/dseditgroup -o edit -d "$1" -t user admin
+            fi
+            if [[ "`/usr/bin/dsmemberutil checkmembership -U "$1" -G "Student\Domain Users"`" == "user is a member of the group" ]]
+                then
+                    echo "Student user - should not be an admin"
+                    /usr/sbin/dseditgroup -o edit -d "$1" -t user admin
+                else
+                    echo "do nothing"    
+            fi
+    else
+        echo "User is not a member of the domain in some capacity"
+            if [[ "$1" == *hisdadmin* ]]
+                then
+                    echo "hisdadmin detected"
+                    /usr/sbin/dseditgroup -o edit -a "$1" -t user admin
+            elif [[ "$1" == *applemgr* ]]
+                then
+                    echo "applemgr detected"
+                    /usr/sbin/dseditgroup -o edit -a "$1" -t user admin
+            else
+                echo "local account is not allowed to be an admin"
+                /usr/sbin/dseditgroup -o edit -d "$1" -t user admin
+            fi
+fi

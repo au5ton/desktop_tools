@@ -1,0 +1,7 @@
+manufacture_date = 18060 
+design_capacity = 8755 
+max_capacity = 8530 
+current_capacity = 7379 
+cycle_count = 24 
+temperature = 2974 
+condition = Normal

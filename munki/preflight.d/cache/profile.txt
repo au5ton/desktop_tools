@@ -1,0 +1,259 @@
+ProfileUUID = 03cf8039-c631-49a1-b4d8-635f2dcda164
+ProfileName = GlobalPreferences
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \".GlobalPreferences\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        MultipleSessionEnabled = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 82e1190c-fad9-4573-9ca5-0fb17fe866c1
+ProfileName = Adobe Reader 11
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.adobe.Reader\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        11 =                         {\n                            FeatureLockdown =                             {\n                                bUpdater = 0;\n                            };\n                        };\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 8da0b700-e8bf-4471-bfe0-84df60e8b559
+ProfileName = MCX Preferences
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.MCX\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        DisableGuestAccount = 1;\n                        EnableGuestAccount = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = bf900530-2306-0131-32e2-000c2944c108
+ProfileName = Safari
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.Safari\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        BlockStoragePolicy = 1;\n                        ManagedPlugInPolicies =                         {\n                            \"com.adobe.acrobat.pdfviewerNPAPI\" =                             {\n                                PlugInDisallowPromptBeforeUseDialog = 1;\n                                PlugInFirstVisitPolicy = PlugInPolicyAllowWithSecurityRestrictions;\n                            };\n                            \"com.macromedia.Flash Player.plugin\" =                             {\n                                PlugInDisallowPromptBeforeUseDialog = 1;\n                                PlugInFirstVisitPolicy = PlugInPolicyAllowWithSecurityRestrictions;\n                            };\n                            \"com.microsoft.SilverlightPlugin\" =                             {\n                                PlugInDisallowPromptBeforeUseDialog = 1;\n                                PlugInFirstVisitPolicy = PlugInPolicyAllowWithSecurityRestrictions;\n                            };\n                        };\n                        \"com.apple.Safari.ContentPageGroupIdentifier.WebKit2PrivateBrowsingEnabled\" = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 9de4f26c-c8d0-449d-a51e-6549c23ae3d0
+ProfileName = Setup Assistant
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.SetupAssistant\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        DidSeeCloudSetup = 1;\n                        LastSeenBuddyBuildVersion = 15G31;\n                        LastSeenCloudProductVersion = \"10.11.6\";\n                        RunNonInteractive = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 3aad4485-50df-4464-9ec8-82ef683d70e0
+ProfileName = SoftwareUpdate
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.SoftwareUpdate\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        AllowPreReleaseInstallation = 0;\n                        CatalogURL = \"http://macprod01.ad.hisd.org/content/catalogs/index.sucatalog\";\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 9cb16f60-9e80-4f2e-a59e-81087e0c99ad
+ProfileName = GarageBand
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.garageband10\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        DontShowAdditionalContentDowload = 1;\n                        welcomeScreenShown = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 9cb16f60-9e80-4f2e-a59e-81087e0c99ad
+ProfileName = iMovie
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.iMovieApp\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        showWelcomeScreenAtStartup = 0;\n                        showWhatsNewScreenAtStartup = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5d4b4148-c524-4d4a-bb25-3d7a623e7f0f
+ProfileName = iPhoto
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.iPhoto\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        FirstLaunch = 0;\n                        GeoCodeLookupPreference = 2;\n                        TMAFirstLaunchVersion = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = e7d4a446-36c9-480c-af60-da71093731ac
+ProfileName = Keynote
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.iWork.Keynote\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        TMAFirstLaunchCoachingTipShownKey = 1;\n                        TMAFirstLaunchVersion = 65541;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = e7d4a446-36c9-480c-af60-da71093731ac
+ProfileName = Numbers
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.iWork.Numbers\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        TMAFirstLaunchCoachingTipShownKey = 1;\n                        TMAFirstLaunchVersion = 65541;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = e7d4a446-36c9-480c-af60-da71093731ac
+ProfileName = Pages
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.iWork.Pages\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        TMAFirstLaunchCoachingTipShownKey = 1;\n                        TMAFirstLaunchVersion = 65541;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 8f9fa70d-1586-434b-a9a8-ee297bbbe8c7
+ProfileName = LoginWindow
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.loginwindow\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        AdminHostInfo = HostName;\n                        AdminMayDisableMCX = 0;\n                        \"AutoLaunchedApplicationDictionary-raw\" =                         {\n                            Hide = 0;\n                            Path = \"/Applications/GeekTool.app/Contents/PlugIns/GeekTool.prefPane/Contents/Resources/GeekTool Helper.app\";\n                        };\n                        RestartDisabledWhileLoggedIn = 0;\n                        ShutDownDisabledWhileLoggedIn = 0;\n                        TALLogoutReason = \"Log Out\";\n                        TALLogoutSavesState = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 62673535-32d0-45da-aaab-eac381d9557a
+ProfileName = mcxMenuExtras
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.mcxMenuExtras\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        \"Battery.menu\" = 1;\n                        \"Bluetooth.menu\" = 1;\n                        \"Clock.menu\" = 1;\n                        \"Displays.menu\" = 1;\n                        \"TimeMachine.menu\" = 0;\n                        \"User.menu\" = 1;\n                        \"Volume.menu\" = 1;\n                        delaySeconds = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 4714c0ae-20ec-45b9-8234-6b52b0ad0049
+ProfileName = ScreenSaver Password
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.screensaver\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        askForPassword = 1;\n                        askForPasswordDelay = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 9b59013c-e097-460a-b224-48c5276353c0
+ProfileName = Students Airdrop
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.systempreferences\" =         {\n            Forced =             (\n                                {\n                    \"com.apple.NetworkBrowser\" =                     {\n                        DisableAirDrop = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = da8ec3b4-1de7-45ad-b84c-4d4822ad8f81
+ProfileName = System Preferences
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.systempreferences\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        DisabledPreferencePanes =                         (\n                            \"com.apple.preferences.configurationprofiles\"\n                        );\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 62673535-32d0-45da-aaab-eac381d9557a
+ProfileName = SystemUIServer
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.systemuiserver\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        menuExtras =                         (\n                            \"/Applications/Utilities/Keychain Access.app/Contents/Resources/Keychain.menu\",\n                            \"/System/Library/CoreServices/Menu Extras/User.menu\"\n                        );\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 1d78a6fd-5c5a-4089-ab44-c67d844189ab
+ProfileName = Google Keystone Agent
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.google.Keystone.Agent\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        checkInterval = 0;\n                        hasRunSystemKeystone = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5484674f-9395-404c-b8df-674d2b8aed71
+ProfileName = Microsoft Office 2011
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.Excel\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        \"14\\\\Microsoft Excel\\\\AutoFormatHyperlinks\" = 1;\n                        \"14\\\\Microsoft Excel\\\\AutoRecoverEnabled\" = 1;\n                        \"14\\\\Microsoft Excel\\\\AutoRecoverTime\" = 10;\n                        \"14\\\\Microsoft Excel\\\\EnableLivePreview\" = 1;\n                        \"14\\\\Microsoft Excel\\\\Hide Welcome Window\" = 1;\n                        \"14\\\\Microsoft Excel\\\\HideExtension\" = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5484674f-9395-404c-b8df-674d2b8aed71
+ProfileName = Microsoft Office 2011
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.Outlook\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        FirstRunExperienceCompleted = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5484674f-9395-404c-b8df-674d2b8aed71
+ProfileName = Microsoft Office 2011
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.PowerPoint\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        \"14\\\\Options\\\\Options\\\\Hide Welcome Dialog\" = 1;\n                        \"14\\\\Options\\\\Options\\\\Ribbon Enabled\" = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5484674f-9395-404c-b8df-674d2b8aed71
+ProfileName = Microsoft Office 2011
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.Word\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        \"14\\\\Options\\\\BackgroundSave\" = 1;\n                        \"14\\\\Options\\\\Hide Welcome Dialog\" = 1;\n                        \"14\\\\Options\\\\Options:Disable Ribbon\" = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5484674f-9395-404c-b8df-674d2b8aed71
+ProfileName = Microsoft Office 2011
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.autoupdate2\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        HowToCheck = Manual;\n                        LastUpdate = \"2001-01-01 00:00:00 +0000\";\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5484674f-9395-404c-b8df-674d2b8aed71
+ProfileName = Microsoft Office 2011
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.error_reporting\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        SQMReportsEnabled = 1;\n                        ShipAssertEnabled = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 5484674f-9395-404c-b8df-674d2b8aed71
+ProfileName = Microsoft Office 2011
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.office\" =         {\n            \"Set-Once\" =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        \"14\\\\File New State\\\\FNMSWD\" = 0;\n                        \"14\\\\File New State\\\\FNPPT3\" = 0;\n                        \"14\\\\File New State\\\\FNXCEL\" = 0;\n                        \"14\\\\FirstRun\\\\MigrationForMASComplete\" = 1;\n                        \"14\\\\FirstRun\\\\SetupComplete\" = 1;\n                        \"14\\\\UserInfo\\\\UserInitials\" = HISD;\n                        \"14\\\\UserInfo\\\\UserName\" = \"Houston ISD\";\n                        \"14\\\\UserInfo\\\\UserOrganization\" = \"Houston Independent School District\";\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = d73556fb-5d22-457c-a94a-f52bf4ab9166
+ProfileName = Silverlight
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        \"com.microsoft.silverlight\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        Settings =                         {\n                            Permissions =                             {\n                                \"http://www.houstonisd.org:80\" =                                 {\n                                    WebcamAndMicrophone = 17;\n                                };\n                            };\n                        };\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = d2e66e15-f88d-4855-bff0-54b6f1b73554
+ProfileName = ManagedInstalls
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = No Payload Display Name
+PayloadData = "{\n    PayloadContent =     {\n        ManagedInstalls =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        AppleSoftwareUpdatesOnly = 0;\n                        DaysBetweenNotifications = 1;\n                        InstallAppleSoftwareUpdates = 1;\n                        InstallRequiresLogout = 0;\n                        LoggingLevel = 2;\n                        ManagedInstallDir = \"/Library/Managed Installs\";\n                        PackageVerificationMode = hash;\n                        ShowRemovalDetail = 0;\n                        SoftwareRepoURL = \"https://macprod01.ad.hisd.org/repo\";\n                        SuppressAutoInstall = 0;\n                        SuppressLoginwindowInstall = 0;\n                        SuppressStopButtonOnInstall = 1;\n                        SuppressUserNotification = 0;\n                        UnattendedAppleUpdates = 1;\n                        UseClientCertificate = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = cd6d864c-af35-4aa4-beb4-d26c498cff65
+ProfileName = Safari Students
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = Custom: (com.apple.Safari)
+PayloadData = "{\n    PayloadContent =     {\n        \"com.apple.Safari\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        WebKitPrivateBrowsingEnabled = 0;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 04cae2ef-b66b-4ab7-aaea-d42d2e1aabc5
+ProfileName = Chrome Students
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.ManagedClient.preferences
+PayloadDisplayName = Custom: (com.google.Chrome)
+PayloadData = "{\n    PayloadContent =     {\n        \"com.google.Chrome\" =         {\n            Forced =             (\n                                {\n                    \"mcx_preference_settings\" =                     {\n                        AuthServerWhitelist = \"*.houstonisd.org,*.ad.hisd.org,proxy*\";\n                        ExtensionInstallBlacklist =                         (\n                            \"*\"\n                        );\n                        ExtensionInstallWhitelist =                         (\n                            bhdheahnajobgndecdbggfmcojekgdko,\n                            cbpiiblghhnlalifiaddecedaeaijdpe,\n                            fpcdidgjjebefhmlhjlgnkahlimgaemc,\n                            joodangkbfjnajiiifokapkpmhfnpleo,\n                            mfhehppjhmmnlfbbopchdfldgimhfhfk,\n                            mgijmajocgfcbeboacabfgobmjgjcoja,\n                            aohghmighlieiainnegkcijnfilokake,\n                            mkaakpdehdafacodkgkpghoibnmamcme,\n                            apdfllckaahabafndbhieahigkjlhalf,\n                            gbkeegbaiigmenfmjfclcdgdpimamgkj,\n                            hmjkmjkepdijhoojdojkdfohbdgmmhki,\n                            lneaknkopdijkpnocmklfnjbeapigfbh,\n                            pjnfggphgdjblhfjaphkjhfpiiekbbej,\n                            felcaaldnbdncclmgdcncolpebgiejap,\n                            aapocclcgogkmnckokdopfmhonfmgoek,\n                            aapbdbdomjkkjkaonfhkkikfgjllcleb,\n                            meefjekipolcgabfgaclcpdkbghhmoah,\n                            fbajoeghnmhhckkeihaegoljippllafc,\n                            obpepkepjdekeppmdjnnddeialdlgcjp,\n                            kglanclfgliekimcflbfmcjohpikhchb,\n                            gdbabpaggdgcakhjllleobffeghmhjme,\n                            bgofflgeghkhocbociocnckocbjmomjh,\n                            bknlhijjidlbhkmiocmboijjjebojgpn,\n                            gheikhdfflhlbemfmhcfpeblehemeklp,\n                            acoonfmhnndodekhecidldfdjgooefpg,\n                            bknlhijjidlbhkmiocmboijjjebojgpn,\n                            nblhpecglllndfihipmpdoikimcmgkha,\n                            iljnkagajgfdmfnnidjijobijlfjfgnb,\n                            fiombgjlkfpdpkbhfioofeeinbehmajg,\n                            mdafamggmaaaginooondinjgkgcbpnhp,\n                            ciniambnphakdoflgeamacamhfllbkmo,\n                            nbnaepfkikcjdhaciekglfcjnfbgpmdn,\n                            dncgedbnidfkppmdgfgidcepclnokpkb\n                        );\n                        IncognitoModeAvailability = 1;\n                        ProxyMode = direct;\n                        SafeBrowsingEnabled = 1;\n                        SyncDisabled = 1;\n                    };\n                }\n            );\n        };\n    };\n}"
+---------
+ProfileUUID = 783cfc30-c9a5-0132-0f4b-003ee1c41406
+ProfileName = Submit Diagnostics
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.SubmitDiagInfo
+PayloadDisplayName = Security & Privacy
+PayloadData = "{\n    AutoSubmit = 0;\n}"
+---------
+ProfileUUID = 783cfc30-c9a5-0132-0f4b-003ee1c41406
+ProfileName = Submit Diagnostics
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.applicationaccess
+PayloadDisplayName = Security & Privacy
+PayloadData = "{\n    allowDiagnosticSubmission = 0;\n}"
+---------
+ProfileUUID = a3f3dc40-1fde-0131-31d5-000c2944c108
+ProfileName = AppStoreAdmin
+ProfileRemovalDisallowed = yes
+PayloadName = com.apple.appstore
+PayloadDisplayName = App Store
+PayloadData = "{\n    \"restrict-store-disable-app-adoption\" = 1;\n    \"restrict-store-require-admin-to-install\" = 1;\n    \"restrict-store-softwareupdate-only\" = 0;\n}"
+---------
+ProfileUUID = 8BF82E62-E48F-4809-B3A6-C14B71B06E60
+ProfileName = HISD-wifi (EAP-TLS)
+ProfileRemovalDisallowed = no
+PayloadName = com.apple.ADCertificate.managed
+PayloadDisplayName = AD Certificate
+PayloadData = "{\n    AllowAllAppsAccess = 0;\n    CertServer = \"CERTPRODCA01.ad.hisd.org\";\n    CertTemplate = OSXEAPTLS;\n    CertificateAcquisitionMechanism = RPC;\n    CertificateAuthority = HISDSubCA1;\n    CertificateRenewalTimeInterval = 14;\n    Description = \"Acquire Computer Certificate via CA\";\n    KeyIsExtractable = 0;\n    PromptForCredentials = 0;\n    \"updated_at_xid\" = 14398;\n}"
+---------
+ProfileUUID = 8BF82E62-E48F-4809-B3A6-C14B71B06E60
+ProfileName = HISD-wifi (EAP-TLS)
+ProfileRemovalDisallowed = no
+PayloadName = com.apple.security.pkcs1
+PayloadDisplayName = HISDSubCA1
+PayloadData = "{\n    \"updated_at_xid\" = 14395;\n}"
+---------
+ProfileUUID = 8BF82E62-E48F-4809-B3A6-C14B71B06E60
+ProfileName = HISD-wifi (EAP-TLS)
+ProfileRemovalDisallowed = no
+PayloadName = com.apple.security.root
+PayloadDisplayName = Houston Independent School District Certification Authority
+PayloadData = "No Payload Data"
+---------
+ProfileUUID = 8BF82E62-E48F-4809-B3A6-C14B71B06E60
+ProfileName = HISD-wifi (EAP-TLS)
+ProfileRemovalDisallowed = no
+PayloadName = com.apple.wifi.managed
+PayloadDisplayName = WiFi (HISD-wifi)
+PayloadData = "{\n    AuthenticationMethod = \"\";\n    AutoJoin = 1;\n    EAPClientConfiguration =     {\n        AcceptEAPTypes =         (\n            13\n        );\n        PayloadCertificateAnchorUUID =         (\n            \"3d97b209-c777-4fc5-9e61-77c014963b26\"\n        );\n        TLSTrustedServerNames =         (\n        );\n    };\n    EncryptionType = WPA2;\n    \"HIDDEN_NETWORK\" = 1;\n    Interface = BuiltInWireless;\n    IsHotspot = 0;\n    ProxyType = None;\n    \"SSID_STR\" = \"HISD-wifi\";\n    SetupModes =     (\n        System\n    );\n    \"updated_at_xid\" = 14434;\n}"
+---------

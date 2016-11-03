@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>BusProtocol</key>
+		<string>PCI</string>
+		<key>Content</key>
+		<string>Apple_HFS</string>
+		<key>CoreStorageCompositeDisk</key>
+		<false/>
+		<key>CoreStorageEncrypted</key>
+		<false/>
+		<key>CoreStorageLVGUUID</key>
+		<string>85290C38-46C9-4A8F-A84B-81AC8B922614</string>
+		<key>Ejectable</key>
+		<false/>
+		<key>FreeSpace</key>
+		<string>932007903232</string>
+		<key>Internal</key>
+		<true/>
+		<key>MountPoint</key>
+		<string>/</string>
+		<key>RAIDMaster</key>
+		<false/>
+		<key>SMARTStatus</key>
+		<string>Verified</string>
+		<key>SolidState</key>
+		<true/>
+		<key>TotalSize</key>
+		<string>999116767232</string>
+		<key>VolumeName</key>
+		<string>Macintosh HD</string>
+	</dict>
+</array>
+</plist>

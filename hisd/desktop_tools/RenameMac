@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Determine OS version
+osvers=$(sw_vers -productVersion | awk -F. '{print $2}')
+
+if [[ ${osvers} -ge 7 ]]; then
+	/usr/bin/clear
+	sleep 1
+	echo ""
+	printf "Please enter the new Mac name...  -> "
+	read NAME
+	echo "Please enter the password for hisdadmin..."
+	sudo /usr/sbin/scutil --set ComputerName $NAME
+	sleep 2
+	sudo /usr/sbin/scutil --set LocalHostName $NAME
+	sudo /usr/sbin/scutil --set HostName "$NAME".ad.hisd.org
+
+	echo "Mac Successfully Renamed to $NAME"
+fi
+
+exit 0

@@ -1,0 +1,8 @@
+Name: 10.81.193.114
+PPD: HP LaserJet P3010 Series
+Driver Version: 19.13
+URL: ipp://10.81.193.114/
+Default Set: no
+Printer Status: idle
+Printer Sharing: no
+----------

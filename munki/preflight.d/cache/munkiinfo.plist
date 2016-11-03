@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>AppleCatalogURL</key>
+		<string>http://macprod01.ad.hisd.org/content/catalogs/index.sucatalog</string>
+		<key>AppleSoftwareUpdatesOnly</key>
+		<string>False</string>
+		<key>CatalogURL</key>
+		<string></string>
+		<key>ClientCertificatePath</key>
+		<string></string>
+		<key>ClientIdentifier</key>
+		<string>012-Reagan_High_School/students/clients/C02PR2Y9G8WM</string>
+		<key>ClientKeyPath</key>
+		<string></string>
+		<key>ClientResourceURL</key>
+		<string></string>
+		<key>ClientResourcesFilename</key>
+		<string></string>
+		<key>DaysBetweenNotifications</key>
+		<integer>1</integer>
+		<key>FollowHTTPRedirects</key>
+		<string>none</string>
+		<key>HelpURL</key>
+		<string></string>
+		<key>IconURL</key>
+		<string></string>
+		<key>InstallAppleSoftwareUpdates</key>
+		<string>True</string>
+		<key>InstallRequiresLogout</key>
+		<string>False</string>
+		<key>LocalOnlyManifest</key>
+		<string></string>
+		<key>LogFile</key>
+		<string>/Library/Managed Installs/Logs/ManagedSoftwareUpdate.log</string>
+		<key>LogToSyslog</key>
+		<string>False</string>
+		<key>LoggingLevel</key>
+		<integer>2</integer>
+		<key>MSUDebugLogEnabled</key>
+		<string></string>
+		<key>MSULogEnabled</key>
+		<string></string>
+		<key>ManagedInstallDir</key>
+		<string>/Library/Managed Installs</string>
+		<key>ManifestURL</key>
+		<string></string>
+		<key>PackageURL</key>
+		<string></string>
+		<key>PackageVerificationMode</key>
+		<string>hash</string>
+		<key>ShowRemovalDetail</key>
+		<string>False</string>
+		<key>SoftwareRepoCACertificate</key>
+		<string></string>
+		<key>SoftwareRepoCAPath</key>
+		<string></string>
+		<key>SoftwareRepoURL</key>
+		<string>https://macprod01.ad.hisd.org/repo</string>
+		<key>SoftwareUpdateServerURL</key>
+		<string></string>
+		<key>SuppressAutoInstall</key>
+		<string>False</string>
+		<key>SuppressLoginwindowInstall</key>
+		<string>False</string>
+		<key>SuppressStopButtonOnInstall</key>
+		<string>True</string>
+		<key>SuppressUserNotification</key>
+		<string>False</string>
+		<key>UnattendedAppleUpdates</key>
+		<string>True</string>
+		<key>UseClientCertificate</key>
+		<string>False</string>
+		<key>UseClientCertificateCNAsClientIdentifier</key>
+		<string></string>
+		<key>munkiprotocol</key>
+		<string>https</string>
+	</dict>
+</array>
+</plist>

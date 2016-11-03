@@ -1,0 +1,26 @@
+Service: Thunderbolt Ethernet
+DHCP Configuration
+Client ID: 
+IPv6: Automatic
+IPv6 IP address: none
+IPv6 Router: none
+Ethernet Address: (null)
+Service: Wi-Fi
+DHCP Configuration
+IP address: 10.208.56.40
+Subnet mask: 255.255.252.0
+Router: 10.208.56.1
+Client ID: 
+IPv6: Off
+Wi-Fi ID: a4:5e:60:e8:13:9d
+Service: Bluetooth PAN
+DHCP Configuration
+Client ID: 
+IPv6: Off
+Ethernet Address: (null)
+Service: Thunderbolt Bridge
+DHCP Configuration
+Client ID: 
+IPv6: Automatic
+IPv6 IP address: none
+IPv6 Router: none

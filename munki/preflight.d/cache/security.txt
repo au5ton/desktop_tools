@@ -1,0 +1,2 @@
+Gatekeeper: Disabled
+SIP: Active
